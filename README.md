@@ -58,3 +58,37 @@ stress --cpu 4 --timeout 300
 
 ### ✅ 6. Received SNS Email Alert
 - CloudWatch detected the threshold breach, transitioned the alarm to ALARM, and sent a confirmation email.
+
+-------------------
+## 📸 Attached Screenshots
+
+CloudWatch alarm in OK → ALARM state
+
+Email alert from AWS SNS
+
+Terminal showing stress running
+
+SNS topic + confirmed email subscription
+
+
+
+---
+
+##🧹 Cleanup
+
+Stopped EC2 instance to avoid charges
+
+Confirmed no unattached volumes
+
+Alarm and SNS left in place for demo purposes
+
+
+---
+
+📌 Author
+
+Chandan Upadhyay
+
+[LinkedIn](https://www.linkedin.com/in/chandan-upadhyay-813077141?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+[GitHub](https://github.com/itschandan2024)
